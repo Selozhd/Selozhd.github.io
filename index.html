@@ -1,1 +1,353 @@
-Hello World
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--====== Title ======-->
+    <title> Ahmet Balcioglu - </title>
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!--====== Line Icons css ======-->
+    <link rel="stylesheet" href="assets/css/LineIcons.css">
+
+    <!--====== Magnific Popup css ======-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="assets/css/default.css">
+
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style type="text/css">
+        .gallery-title {
+            font-size: 36px;
+            color: #000;
+            text-align: center;
+            font-weight: 500;
+            margin-bottom: 70px;
+        }
+
+        .gallery-title:after {
+            content: "";
+            position: absolute;
+            width: 7.5%;
+            left: 46.5%;
+            height: 45px;
+            border-bottom: 1px solid #5e5e5e;
+        }
+
+        .filter-button {
+            font-size: 18px;
+            border: 1px solid #42B32F;
+            border-radius: 5px;
+            text-align: center;
+            color: #42B32F;
+            margin-bottom: 30px;
+
+        }
+
+        .filter-button:hover {
+            font-size: 18px;
+            border: 1px solid #42B32F;
+            border-radius: 5px;
+            text-align: center;
+            color: #ffffff;
+            background-color: #42B32F;
+
+        }
+
+        .btn-default:active .filter-button:active {
+            background-color: #42B32F;
+            color: white;
+        }
+
+        .port-image {
+            width: 100%;
+        }
+
+        .img-responsive {
+            width: 365px;
+            height: 365px;
+            border: 1px solid #ccc
+        }
+
+        .gallery_product {
+            margin-bottom: 30px;
+        }
+    </style>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        window.alert = function () { };
+        var defaultCSS = document.getElementById('bootstrap-css');
+        function changeCSS(css) {
+            if (css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="' + css + '" type="text/css" />');
+            else $('head > link').filter(':first').replaceWith(defaultCSS);
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <!--====== HEADER PART START ======-->
+
+    <header class="header-area">
+        <div class="navgition navgition-transparent">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="#">
+                                <h2>Ahmet Balcioglu</h2>
+                            </a>
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarOne"
+                                aria-controls="navbarOne" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarOne">
+                                <ul class="navbar-nav m-auto">
+                                    <li class="nav-item active">
+                                        <a class="page-scroll" href="#home">HOME</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#publications">Publications</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#research">Research</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#teaching_mat">Teaching Materials</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="CV.pdf">CV</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="navbar-social d-none d-sm-flex align-items-center">
+                                <span></span>
+                                <ul>
+                                    <li><a href="mailto:zahidbalcioglu@gmail.com"><i class="lni-envelope"></i></a></li>
+                                    <li><a href="https://github.com/Selozhd"><i class="lni-github-original"></i></a></li>
+                                </ul>
+                            </div>
+                        </nav> <!-- navbar -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- navgition -->
+
+        <div id="home" class="header-hero bg_cover" style="background-image: url(assets/images/header-bg.png)">
+            <div class="container">
+                <div class="row">
+                    <div class="header-content text-center">
+
+                        <div class="col-lg-6">
+                            <div class="section-title pb-10">
+                                <img src="myphoto.jpg" class="rounded float-left" >
+                            </div> 
+                        </div> <!-- section title -->
+
+                        <div class="col-lg-6" style="float:left !important" >
+                            <div class="section-title pb-10">
+                                <h4 class="title">About Me</h4>
+                                <p class="text">
+                                    I am a statistics master’s student at Yildiz Technical Univeristy.
+                                    I have received Hon. BS from the University of Toronto in Nov 2018,
+                                    where I majored in physics and minored in mathematics and statistics.
+                                    Currently, working as an assistant researcher at Bogazici Univeristy department of
+                                    Mathematics and as AI researcher at ETIYA.</p>
+                                    <p class="text"> My research interests include 
+                                        anomaly detection algorithms and outlier analysis,
+                                        learning theory.
+                                        You can see my <a href="#teaching_mat"> teaching materials </a>
+                                        and <a href="#research"> research </a> here.</p>
+                            </div> 
+                        </div>
+
+                    </div> <!-- header content -->
+                </div> <!-- row -->
+                <div class="header-shape">
+                    <img src="assets/images/header-shape.svg" alt="shape">
+                </div>
+            </div> <!-- container -->
+        </div> <!-- header content -->
+    </header>
+
+    <!--====== HEADER PART ENDS ======-->
+
+    <!--====== hakkimizda PART START ======-->
+
+    <section id="publications" class="urunler-area">
+        <div class="container">
+            <h2 id="preprints">Preprints</h3>
+                <br />
+                <ul >
+                    <li>On a notion of outliers based on ratios of order statistics,
+                        joint with Oğuz Gürerk and Ümit Işlak; available upon request.</li>
+                    <li>Adaptive Slot-filling for low-resource Natural Language Understanding; available upon request
+                    </li>
+                </ul>
+                <br />
+                <h2 id="in-preparation">In Prepearation</h3>
+                    <br />
+                    <ul>
+                        <li>Extensions of the stochastic SEIR model with vaccination and heterogeneous mixing,
+                            an optimal control approach, joint with Oğuz Gürerk</li>
+                    </ul>
+                    <br />
+                    <h2 id="TA">Teaching</h3>
+                        <br />
+                        <p>Student Assistant; Yildiz Technical University, Department of Statistics:</p>
+                        <ul>
+                            <li>IST 3121 - Regression Analysis I, Fall 2019</li>
+                            <li>IST 5110 - Advanced Regression Analysis, Spring 2020</li>
+                        </ul>
+                        <br />
+
+
+        </div> <!-- hakkimizda image -->
+    </section>
+
+    <!--====== hakkimizda PART ENDS ======-->
+
+    <!--====== urunler PART START ======-->
+
+    <section id="research" class="research-area">
+        <div class="container">
+            <h2 id="research">Research</h2>
+            <h3 id="outliers-order-statistics-and-concentration-inequalities">
+            <br/>
+                Outliers, order statistics, and concentration inequalities</h3>
+            <ul>
+                <li>Main goal of our project is to have a distribution invariant robust estimator
+                    for anomalies based on order statistics.</li>
+                <li>Responsible for developing a python library for heavy tail-data and for
+                    anomalous data generation and simulations.</li>
+            </ul>
+            <br/>
+            <h3 id="optimal-control-in-epidemiological-systems">Optimal Control in Epidemiological Systems</h3>
+            <ul>
+                <li>Developing a variant of the SIR models that accounts for vaccination, waning immunity in order to do
+                    formulate an optimal control problem for best vaccination policies.</li>
+                <li>Computationally simulated differential equations for the SIR type models and produced the plots for
+                    the following book chapter for which I was mentioned in acknowledgements:
+                    Optimal choice of vaccination scheduling in a population composed of two groups, to appear in
+                    Omeraki, Ş., Ingün Karkış, O. &amp; Gonültaş, S. (Eds.). (2022). Interdisciplinary Perspectives on
+                    the Threat and Impact of Pandemics</li>
+            </ul>
+            <br/>
+            <h4 id="distilling-transformer-models-for-a-low-data-setting">Distilling transformer models for a low data
+                setting</h4>
+            <ul>
+                <li>Application of using transfer learning transformer models for data stringent problems that require
+                    repetitive training.</li>
+                <li>Using word-piece tokenization to help differentiate between word roots and suffixes agglutinative
+                    languages such as Turkish.
+                    Research for an embedding guided RNN — March 2020– Present</li>
+                <li>Main goal of the project is to effectively incorporate predetermined memory state based into a
+                    recurrent neural network, which can selectively memorise past states in the sequence.</li>
+                <li>We expected that with the selection of a good. memory state we may in affect reduce the need for
+                    training time and data.</li>
+            </ul>
+            <br/>
+
+
+
+        </div> <!-- conteiner -->
+    </section>
+
+    <!--====== urunler PART ENDS ======-->
+
+
+
+    <!--====== CALL TO ACTION PART ENDS ======-->
+
+    <!--====== CONTACT PART START ======-->
+
+    <section id="teaching_mat" class="urunler-area">
+        <div class="container">
+                        <h2 class="title"> Teaching Resources </h4>
+                            <br/> 
+                        <ul class="list-group"> 
+                            <li class="list-group-item"> IST3121 Regression Analysis: <a href="Oct17_IST3121.R">  R codes for Week 6 </a></li>
+                            <li class="list-group-item"> For my github repository on un-gated RNN: <a href="https://github.com/Selozhd/UngatedRNN"> link</a></li>
+                            <li class="list-group-item"> For my github repository on <a href="https://arxiv.org/pdf/2105.03824.pdf"> FNet: Mixing Tokens with Fourier Transforms</a>: <a href="https://github.com/Selozhd/FNet-tensorflow"> link</a></li>
+                            <li class="list-group-item"> For my talk titled <a href="anomaly_and_outlier.pdf">"Anomalies and  Outliers" </a></li>
+                        </ul>
+        </div> <!-- conteiner -->
+    </section>
+
+    <!--====== CONTACT PART ENDS ======-->
+
+    <!--====== FOOTER PART START ======-->
+
+    <footer id="footer" class="footer-area">
+
+
+
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright text-center">
+                            <p class="text">Ahmet Balcioglu</p>
+                        </div>
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+
+    </footer>
+
+    <!--====== FOOTER PART ENDS ======-->
+
+    <!--====== BACK TO TOP PART START ======-->
+
+    <a class="back-to-top" href="#"><i class="lni-chevron-up"></i></a>
+
+    <!--====== BACK TO TOP PART ENDS ======-->
+
+
+
+
+
+
+
+
+
+    <!--====== jquery js ======-->
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+
+
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/popper.min.js"></script>
+
+    <!--====== Scrolling Nav js ======-->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
+
+    <!--====== Magnific Popup js ======-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
