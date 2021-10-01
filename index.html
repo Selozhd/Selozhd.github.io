@@ -135,7 +135,7 @@
                                         <a class="page-scroll" href="#teaching_mat">Teaching Materials</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="CV.pdf">CV</a>
+                                        <a class="page-scroll" href="resources/CV.pdf">CV</a>
                                     </li>
                                 </ul>
                             </div>
@@ -160,7 +160,7 @@
 
                         <div class="col-lg-6">
                             <div class="section-title pb-10">
-                                <img src="myphoto.jpg" class="rounded float-left" >
+                                <img src="resources/myphoto.jpg" class="rounded float-left" >
                             </div> 
                         </div> <!-- section title -->
 
@@ -171,8 +171,8 @@
                                     I am a statistics master’s student at Yildiz Technical Univeristy.
                                     I have received Hon. BS from the University of Toronto in Nov 2018,
                                     where I majored in physics and minored in mathematics and statistics.
-                                    Currently, working as an assistant researcher at Bogazici Univeristy department of
-                                    Mathematics and as AI researcher at ETIYA.</p>
+                                    Currently working as an assistant researcher at Bogazici Univeristy department of
+                                    Mathematics and as an AI researcher at ETIYA.</p>
                                     <p class="text"> My research interests include 
                                         anomaly detection algorithms and outlier analysis,
                                         learning theory.
@@ -203,7 +203,7 @@
 </style>
     <section id="publications" class="urunler-area" >
         <div class="container">
-            <h2 id="preprints">Publications</h2>
+            <h2 id="preprints" class="title text-center">Publications</h2>
                 <hr/>
 
             <h3 id="preprints">Preprints</h3>
@@ -213,21 +213,32 @@
                         joint with Oğuz Gürerk and Ümit Işlak; available upon request.</li>
                     <li><b>Adaptive Slot-filling for low-resource Natural Language Understanding;</b> available upon request</li>
                 </dl>
-                <br />
             <h3 id="in-preparation">In Prepearation</h3>
             <br/>
                 <dl>
                     <li><b>Extensions of the stochastic SEIR model with vaccination and heterogeneous mixing,
                         an optimal control approach,</b> joint with Oğuz Gürerk</li>
-                    <li><b>Rethinking CRF training for Named Entity Recognition</b></li>
+                    <li><b>Conditional Random Fields based on Sentence Representations</b></li>
                 </dl>
-                <br />
-            <h3 id="TA">Teaching</h3>
             <br/>
+
+            <h2 id="preprints" class="title text-center">Teaching & Talks</h2>
+            <hr />
+
+            <h3 id="TA">Teaching</h3>
                 <p>Student Assistant; Yildiz Technical University, Department of Statistics:</p>
                 <dl>
                     <li>IST 3121 - Regression Analysis I, Fall 2019</li>
                     <li>IST 5110 - Advanced Regression Analysis, Spring 2020</li>
+                </dl>
+
+            <h3 id="TA">Selected Talks</h3>
+                <dl>
+                    <li> Martingales and Black-Scholes Equation, Probability and Statistics Seminars, Boğaziçi University, Istanbul — June 2020 </li>
+                    <li> Dimension Reduction Techniques for Multivariate Data, Statistics Seminars, Yildiz Technical University, Istanbul — Nov 2020</li>
+                    <li> Deep Learning Solutions of Differential Equations, Graduate Seminars, Yildiz Technical University, Istanbul — Feb 2020</li>
+                    <li> Concentration of Measure and Almost Spherical Sections, Seminars in Analysis, Boğaziçi University, Istanbul — Dec 2020</li>
+                    <li> Outliers and Anomalies, Probability and Statistics Seminars, Boğaziçi University, Istanbul — Jan 2021</li>
                 </dl>
 
 
@@ -244,53 +255,41 @@
             <h2 id="research" class="title text-center">Research</h2>
             <hr/>
 
-            <h4 id="outliers-order-statistics-and-concentration-inequalities">
-                Outliers, order statistics, and concentration inequalities</h4>
+            <h4 id="orderstats">Outliers, order statistics, and concentration inequalities</h4>
             <dl>
-                <li>Main goal of our project is to have a distribution invariant robust estimator
-                    for anomalies based on order statistics.</li>
-                <li>Responsible for developing a python library for heavy tail-data and for
-                    anomalous data generation and simulations.</li>
+                <li>Main goal of our project is to have a distribution invariant robust estimator for anomalies based on order
+                    statistics.</li>
+                <li>Studying the distribution and the asymptotic behaviour of the chosen statistic.</li>
+                <li>Developing a python library for heavy-tailed data, anomalous data generation and order statistic simulations.
+                </li>
             </dl>
             <br/>
 
-            <h4 id="optimal-control-in-epidemiological-systems">Optimal Control in Epidemiological Systems</h4>
+            <h4 id="optimal-control">Optimal Control in Epidemiological Systems</h4>
             <dl>
-                <li>Developing a variant of the SIR models that accounts for vaccination, waning immunity in order to do
-                    formulate an optimal control problem for best vaccination policies.</li>
-                <li>Computationally simulated differential equations for the SIR type models and produced the plots for
-                    the following book chapter for which I was mentioned in acknowledgements:
-                    Optimal choice of vaccination scheduling in a population composed of two groups, to appear in
-                    Omeraki, Ş., Ingün Karkış, O. &amp; Gonültaş, S. (Eds.). (2022). Interdisciplinary Perspectives on
-                    the Threat and Impact of Pandemics</li>
+                <li>Developing a variant of the SIR models that accounts for vaccination, waning immunity in order to do formulate
+                    an optimal control problem for best vaccination policies.</li>
+                <li>Responsible for simulations of the SIR model and for computationally solution of the optimal control problem.
+                </li>
+            </dl>
+            <br />
+
+            <h4 id="distil-transformers">Distilling transformer models for a low data setting</h4>
+            <dl>
+                <li>Main goal of the project is to establish a fast training model for an interactive dialogue system.</li>
+                <li>We developed a model which used transfer learning based on pre-trained transformers and used a hyper-parameter
+                    optimization like training on Conditional Random Fields.</li>
+                <li>Using word-piece tokenization to help differentiate between word roots and suffixes agglutinative languages such
+                    as Turkish.</li>
             </dl>
             <br/>
 
-            <h4 id="distilling-transformer-models-for-a-low-data-setting">Distilling transformer models for a low data setting</h4>
+            <h4 id="research-project4">Research for an embedding guided RNN</h4>
             <dl>
-                <li>Application of using transfer learning transformer models for data stringent problems that require
-                    repetitive training.</li>
-                <li>Using word-piece tokenization to help differentiate between word roots and suffixes agglutinative
-                    languages such as Turkish.
-                    Research for an embedding guided RNN — March 2020– Present</li>
-                <li>Main goal of the project is to effectively incorporate predetermined memory state based into a
-                    recurrent neural network, which can selectively memorise past states in the sequence.</li>
-                <li>We expected that with the selection of a good. memory state we may in affect reduce the need for
-                    training time and data.</li>
-            </dl>
-            <br/>
-            
-            <h4 id="research-project4">Distilling transformer models for a low data setting</h4>
-            <dl>
-                <li>Application of using transfer learning transformer models for data stringent problems that require
-                    repetitive training.</li>
-                <li>Using word-piece tokenization to help differentiate between word roots and suffixes agglutinative
-                    languages such as Turkish.
-                    Research for an embedding guided RNN — March 2020– Present</li>
-                <li>Main goal of the project is to effectively incorporate predetermined memory state based into a
-                    recurrent neural network, which can selectively memorise past states in the sequence.</li>
-                <li>We expected that with the selection of a good. memory state we may in affect reduce the need for
-                    training time and data.</li>
+                <li>Main goal of the project is to effectively incorporate predetermined memory state based into a recurrent neural
+                    network, which can selectively memorise past states in the sequence.</li>
+                <li>We expected that with the selection of a good. memory state we may in affect reduce the need for training time
+                    and data.</li>
             </dl>
             <br/>
 
@@ -306,13 +305,16 @@
 
     <section id="teaching_mat" class="urunler-area">
         <div class="container">
-            <h2 class="title text-center"> Teaching Resources </h2>
+            <h2 class="title text-center"> Teaching Materials </h2>
                             <hr/> 
                         <ul class="list-group"> 
-                            <li class="list-group-item"> IST3121 Regression Analysis: <a href="Oct17_IST3121.R">  R codes for Week 6 </a></li>
-                            <li class="list-group-item"> For my github repository on un-gated RNNs: <a href="https://github.com/Selozhd/UngatedRNN"> link</a></li>
+                            <li class="list-group-item"> IST3121 Regression Analysis: <a href="resources/Oct17_IST3121.R">  R codes for Week 6 </a></li>
+                            <li class="list-group-item"> For my github repository on ungated RNNs: <a href="https://github.com/Selozhd/UngatedRNN"> link</a></li>
                             <li class="list-group-item"> For my github repository on <a href="https://arxiv.org/pdf/2105.03824.pdf"> FNet: Mixing Tokens with Fourier Transforms</a>: <a href="https://github.com/Selozhd/FNet-tensorflow"> link</a></li>
-                            <li class="list-group-item"> For my talk titled "<a href="anomaly_and_outlier.pdf">Anomalies and  Outliers</a>"</li>
+                            <li class="list-group-item"> For my talk titled <a href="resources/anomaly_and_outlier.pdf">Anomalies and  Outliers</a></li>
+                            <li class="list-group-item"> For my talk titled <a href="resources/MeasureConcentration.pdf">Concentration of Measure and Almost Spherical Sections</a></li>
+                            <li class="list-group-item"> Some beginner level exercises in R (from IST5128):
+                                 <a href="resources/R_IST5128.zip">link</a></li>
                         </ul>
         </div> <!-- conteiner -->
     </section>
