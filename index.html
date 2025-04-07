@@ -170,7 +170,7 @@
                                     <p class="text"> Currently, I am in the <a href="https://www.healthyai.se"> Healthy AI Lab </a> in Chalmers.
 				    My research is focused on non-linear independent component analysis, and causal representation learning.
                                         You can see my <a href="#teaching_mat"> teaching materials </a>
-                                        and <a href="#research"> research </a> here.</p>
+                                        and some of my chosen <a href="#research"> research projects </a> here.</p>
                             </div> 
                         </div> <!-- section title -->
 
@@ -205,20 +205,12 @@
         <div class="container">
             <h2 id="preprints" class="title text-center">Publications</h2>
                 <hr/>
-
-            <h3 id="preprints">Preprints</h3>
             <br/>
                 <dl >
+                    <li><b>Identifiable latent bandits: Combining observational data and exploration for personalized healthcare</b> joint with Newton Mwai, Emil Carlsson, and Fredrik Johansson; <a href="https://arxiv.org/abs/2407.16239"> preprint available on arxiv</a>.</li>
                     <li><b>On a notion of outliers based on ratios of order statistics,</b> joint with Oğuz Gürerk; <a href="https://arxiv.org/abs/2207.13068"> preprint available on arxiv</a>.</li>
                     <li><b>Order Statistics Based Training and Scoring Algorithms for Deep Outlier Detection;</b> presented in ICAS 2022 conference, available upon request. </li>
                     <li><b>Adaptive Slot-filling for Turkish Natural Language Understanding;</b> IEEE Xplore, 7th International Conference on Computer Science and Engineering (UBMK), 2022. </li>
-                </dl>
-            <h3 id="in-preparation">In Prepearation</h3>
-            <br/>
-                <dl>
-                    <li><b>Extensions of the stochastic SEIR model with vaccination and heterogeneous mixing,
-                        an optimal control approach,</b> joint with Oğuz Gürerk. Current version 6 pp.</li>
-                    <li><b>Conditional Random Fields based on Sentence Representations.</b> Current version 5 pp.</li>
                 </dl>
             <br/>
 
@@ -226,19 +218,26 @@
             <hr />
 
             <h3 id="TA">Teaching</h3>
-                <p>Student Assistant; Yildiz Technical University, Department of Statistics:</p>
+                <p><i>Chalmers University of Technology, Department of Computer Science and Engineering: </i></p>
                 <dl>
-                    <li>IST 3121 - Regression Analysis I, Fall 2019</li>
-                    <li>IST 5110 - Advanced Regression Analysis, Spring 2020</li>
+                    <li> TIN 092 – Algorithms, (Winter 2024, Fall 2024, Winter 2025)</li>
+                </dl>
+
+                <p><i>Yildiz Technical University, Department of Statistics:</i></p>
+                <dl>
+                    <li> IST 3121 - Regression Analysis I, Fall 2019</li>
+                    <li> IST 5110 - Advanced Regression Analysis, Spring 2020</li>
                 </dl>
 
             <h3 id="TA">Selected Talks</h3>
                 <dl>
-                    <li> Martingales and Black-Scholes Equation, Probability and Statistics Seminars, Boğaziçi University, Istanbul — June 2020 </li>
-                    <li> Dimension Reduction Techniques for Multivariate Data, Graduate Student Seminars, Yildiz Technical University, Istanbul — Nov 2020</li>
-                    <li> Deep Learning Solutions of Differential Equations, Graduate Student Seminars, Yildiz Technical University, Istanbul — Feb 2020</li>
-                    <li> Concentration of Measure and Almost Spherical Sections, Student Seminars in Analysis, Boğaziçi University, Istanbul — Jan 2021</li>
+                    <li> Noise Contrastive Estimation and Applications to Representation Learning, DSAI Seminars at CSE, Chalmers — November 2024 </li>
+                    <li> Identifiable Latent Bandits, Vector Institute University of Toronto — October 2024 </li>
+                    <li> Time Contrastive Learning for ICA, Healthy AI group, Chalmers — October 2023 </li>
                     <li> Outliers and Anomalies, Probability and Statistics Seminars, Boğaziçi University, Istanbul — Jan 2021</li>
+                    <li> Concentration of Measure and Almost Spherical Sections, Student Seminars in Analysis, Boğaziçi University, Istanbul — Jan 2021</li> 
+                    <li> Adaptive Slot-filling for Turkish Natural Language Understanding, 7th International Conference on Computer Science and Engineering (UBMK)  — September 2022 </li>
+                    <li> Order Statistics Based Training and Scoring Algorithms for Deep Outlier Detection, 8th ICAS Conference 2022  — May 2022 </li> 
                 </dl>
 
 
@@ -255,7 +254,22 @@
             <h2 id="research" class="title text-center">Research</h2>
             <hr/>
 
-            <h4 id="orderstats">Outliers, order statistics, and concentration inequalities</h4>
+            <h4 id="ds-generalization"> Downstream Guarantees for Contrastive Learning (Jan 2025–Present)</h4>
+            <dl>
+                <li> Studying linear downstream guarantees for contrastive learning from robust optimization perspective focusing on bounds for minmax type bounds for worst case downstream task.</li>
+                <li> Applications to well-studied contrastive learning applications such as non-linear ICA.</li>
+            </dl>
+            <br/>
+
+            <h4 id="ilb">Identifiable Latent Bandits (Nov 2024–Present)</h4>
+            <dl>
+                <li>Making use of observational data for online-decision making by training an identifiable latent varaible model. Latent variable model allows for sample efficiency in decision time and makes exploaration possible for ml based approaches.</li>
+                <li>Applications to personalized healthcare study on semi-synthetic Alzheimers data.</li>
+            </dl>
+            <br/>
+            
+
+            <h4 id="orderstats">Outliers, order statistics, and concentration inequalities (2021-2022)</h4>
             <dl>
                 <li>Main goal of our project is to have a distribution invariant robust estimator for anomalies based on order
                     statistics.</li>
@@ -265,16 +279,7 @@
             </dl>
             <br/>
 
-            <h4 id="optimal-control">Optimal Control in Epidemiological Systems</h4>
-            <dl>
-                <li>Developing a variant of the SIR models that accounts for vaccination, waning immunity in order to do formulate
-                    an optimal control problem for best vaccination policies.</li>
-                <li>Responsible for simulations of the SIR model and for computationally solution of the optimal control problem.
-                </li>
-            </dl>
-            <br />
-
-            <h4 id="distil-transformers">Distilling transformer models for a low data setting</h4>
+            <h4 id="distil-transformers">Turkish Bert transformer models for a low data setting (2020)</h4>
             <dl>
                 <li>Main goal of the project is to establish a fast training model for an interactive dialogue system.</li>
                 <li>We developed a model which used transfer learning based on pre-trained transformers and used a hyper-parameter
@@ -283,17 +288,6 @@
                     as Turkish.</li>
             </dl>
             <br/>
-
-            <h4 id="research-project4">Research for an embedding guided RNN</h4>
-            <dl>
-                <li>Main goal of the project is to effectively incorporate predetermined memory state based into a recurrent neural
-                    network, which can selectively memorise past states in the sequence.</li>
-                <li>We expected that with the selection of a good memory state we may in affect reduce the need for training time
-                    and data.</li>
-            </dl>
-            <br/>
-
-
 
 
 
