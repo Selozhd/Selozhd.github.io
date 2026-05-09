@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine On
+# Permanently redirect all requests to the new GitHub Pages site, preserving path
+RewriteRule ^(.*)$ https://balcioglu-ahmet.github.io/$1 [R=301,L]
